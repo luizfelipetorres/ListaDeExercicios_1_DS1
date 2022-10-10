@@ -16,8 +16,7 @@ public class Ex1 {
         this.n2 = n2;
     }
 
-    public Ex1() {
-        Scanner s = new Scanner(System.in);
+    public Ex1(Scanner s) {
         System.out.println("Digite o primeiro número: ");
         this.n1 = s.nextInt();
         System.out.println("Digite o segundo número: ");
